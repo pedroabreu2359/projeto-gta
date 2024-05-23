@@ -112,6 +112,7 @@ body {
 
 .compre-ja .capa-do-jogo {
     width: 270px;
+    border-radius: 5px;
 }
 
 .compre-ja {
