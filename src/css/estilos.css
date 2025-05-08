@@ -80,12 +80,6 @@ body {
     font-size: 55px;
 }
 
-.home .informacoes .plataformas {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 32px;
-}
-
 .home .informacoes .texto {
     font-family: 'Chalet';
     font-size: 18px;
