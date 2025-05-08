@@ -80,10 +80,17 @@ body {
     font-size: 55px;
 }
 
+.home .informacoes .plataformas {
+    display: flex;
+    gap: 32px;
+}
+
 .home .informacoes .texto {
     font-family: 'Chalet';
     font-size: 18px;
     line-height: 1.6;
+    text-shadow: 0 0 5px #000;
+    max-width: 600px;
 }
 
 .btn-comprar, .btn-plataforma {
@@ -121,6 +128,7 @@ body {
     text-align: center;
     padding: 50px;
     align-items: center;
+    background: linear-gradient(to bottom, #7bb6c9, #cad8bd);
 }
 
 .compre-ja .titulo {
@@ -128,13 +136,14 @@ body {
     font-size: 50px;
     font-weight: 700;
     margin-bottom: 50px;
+    text-shadow: 0 0 5px #000;
 }
 
 .compre-ja .cartao {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #000;
+    background-color: rgba(0, 0, 0, .75);
     width: 50%;
     border-radius: 10px;
     padding: 80px;
