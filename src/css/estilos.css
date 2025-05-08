@@ -82,6 +82,7 @@ body {
 
 .home .informacoes .plataformas {
     display: flex;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
